@@ -189,8 +189,8 @@ export default function Layout({ children }) {
                 <img
                   loading="lazy"
                   decoding="async"
-                  className="max-w-full max-h-[30rem] object-cover w-full rounded-3xl shadow-lg hover:shadow-xl transition-all duration-300 hover:cursor-pointer"
-                  src="https://img.dpm.org.cn/Uploads/Picture/2024/04/01/s660a321aeb0d5.jpg"
+                  className="max-w-full h-[30rem] object-cover w-full rounded-3xl shadow-lg hover:shadow-xl transition-all duration-300 hover:cursor-pointer"
+                  src="https://s2.loli.net/2024/04/28/IbvEliJBeq31pmj.jpg"
                 ></img>
                 <div>
                   <div className="absolute top-0 left-0 w-1/2 h-full  md:h-1/2 text-white  flex flex-col justify-start items-start p-10 bg-black/50  rounded-tl-3xl md:rounded-br-3xl rounded-bl-3xl md:rounded-bl-0 cursor-pointer">
