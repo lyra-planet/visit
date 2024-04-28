@@ -45,18 +45,18 @@ const index = () => {
   }
   const option = [
     {
-        name:"小广告",
+        name:"广告推荐",
         type:"ad",
         Form:AdForm
     },
     {
-        name:"小玩具",
-        type:"labGadget",
+        name:"数字展品",
+        type:"collection",
         Form:LFForm
     },
     {
-        name:"朋友",
-        type:"friend",
+        name:"精选游客",
+        type:"visitor",
         Form:LFForm
     },
   ]
