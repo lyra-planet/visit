@@ -21,7 +21,7 @@ export default function CommentForm({
         placeholder={
           isAuthenticated
             ? `发表你的评论,支持Markdown格式捏`
-            : '请先登录再和Lyra交流捏'
+            : '请先登录再和群众交流'
         }
         onChange={(e) => setText(e.target.value)}
         value={text}

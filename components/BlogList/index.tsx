@@ -29,7 +29,8 @@ const posts = useBlogList()
       <SkeletonCard/>
             </>
           }else if(typeof posts === 'object'){
-            return posts.map(post=><Item key={post.id} post={post}/>)
+            console.log(posts)
+            return posts?.map(post=><Item key={post.id} post={post}/>)
           }
         })()
       }

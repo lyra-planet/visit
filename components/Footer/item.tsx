@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const Item = ({link,children}:{link:string,children:any}) => {
     return (
-        <Link href={link}>
+    <Link href={link}>
     <li className='w-full 
     flex items-center border-b h-8
     text-xs

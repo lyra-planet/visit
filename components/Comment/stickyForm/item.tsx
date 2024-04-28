@@ -9,7 +9,7 @@ const Item = ({comment,onDelete,isAdmin,isAuthor,w}) => {
     md:first:border-t-0
     border-b
     md:border-b-0
-    space-x-2 px-4 py-3`}
+    space-x-2 px-4 py-3 overflow-hidden`}
     style={{width:`${w*100}%`}}
     >
     <div className="flex-grow">
@@ -39,7 +39,7 @@ const Item = ({comment,onDelete,isAdmin,isAuthor,w}) => {
         </div>
         </div>
       </div>
-      <div className="prose-sm" dangerouslySetInnerHTML={{ __html: comment.text }}/>
+      <div className="prose-sm max-h-[500px]" dangerouslySetInnerHTML={{ __html: comment.text }}/>
     </div>
   </div>
   )

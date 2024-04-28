@@ -138,8 +138,7 @@ const Item = ({ post }) => {
               <Play className="w-4 text-white" />
             </p>
             <p
-              className=" whitespace-nowrap
-        "
+              className=" whitespace-nowrap"
             >
               Read More
             </p>

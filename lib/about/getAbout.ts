@@ -11,7 +11,7 @@ export const getAboutMeId = () => {
     where:{
       AND:[
        { title:{
-          contains:"关于我"
+          contains:"关于站点"
         }}
       ],
       NOT:[{

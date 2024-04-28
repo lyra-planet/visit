@@ -1,6 +1,6 @@
 const config = {
     system:{
-        startTime:"2022-11-17 00:00:00"
+        startTime:"2024-4-20 00:00:00"
     },
     links:{
         friendLink:"https://travellings.link",

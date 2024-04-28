@@ -16,12 +16,12 @@ export default function CommentForm({
   return (
     <form className='w-full h-full flex flex-col pb-10' onSubmit={onSubmit}>
       <textarea
-        className="flex w-full flex-grow p-3 bg-white  resize-y text-neutral-500 outline-none border-[1px] placeholder-neutral-300"
+        className="flex w-full flex-grow p-3 bg-white  resize-y text-neutral-500 outline-none border-[1px] placeholder-neutral-300 bg-radial"
         rows={2}
         placeholder={
           isAuthenticated
-            ? `发表你的评论,支持Markdown格式捏`
-            : '请先登录再和Lyra交流捏'
+            ? `发表你的评论,支持Markdown格式`
+            : '请先登录再和群众交流'
         }
         onChange={(e) => setText(e.target.value)}
         value={text}

@@ -12,7 +12,7 @@ const item = ({post}) => {
     <Link href={post.link} className="w-full p-1 space-y-1">
     <article key={post.id} className="flex flex-col justify-center mb-10">
         {isUrl(post.picture)&&<Image 
-        className=' shadow-lg'
+        className=' shadow-lg overflow-hidden object-cover'
         src={post.picture} 
         width={700}
         height={700}

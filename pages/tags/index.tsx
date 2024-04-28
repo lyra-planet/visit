@@ -16,7 +16,7 @@ const index = () => {
     <div className="pt-8 pb-10 px-10 space-y-4 w-full flex flex-col h-full min-h-screen md:h-screen">
     <section className=" md:h-[10%]">
         <h1 className="flex items-center space-x-2 text-3xl font-bold font-serif">
-        <p>Lyra.Planet</p>
+        <p>梅心文游</p>
         <p className="w-2 h-2 bg-red-500"></p>
         <p>标签集</p>
         </h1>

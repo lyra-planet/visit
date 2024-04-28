@@ -3,9 +3,8 @@ import BlogList from '../components/BlogList';
 import RightSideBar from '../components/RightSideBar';
 import Layout from "../components/layout";
 function HomePage() {
-  const darkMode = useRef(false);
   return (
-      <div className='flex w-full flex-row'>
+      <div className='flex w-full flex-row '>
       <section className='w-full md:w-2/3 lg:w-3/4'>
       <BlogList/>
       </section>

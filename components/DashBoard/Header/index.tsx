@@ -14,7 +14,7 @@ const index = () => {
         <section className='text-white flex font-semibold cursor-pointer translate-y-[-0.3rem]'>
             <Link href={'/'}>
             <p></p>
-                 <p>Lyra.Planet</p>
+                 <p>梅心文游</p>
             </Link>
         </section>
         <section className='translate-y-[-0.2rem]'>

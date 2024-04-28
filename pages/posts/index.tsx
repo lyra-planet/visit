@@ -10,7 +10,7 @@ const index = () => {
     <div className="py-8 px-10 space-y-10 w-full justify-center">
         <section>
             <h1 className="flex items-center space-x-2 text-3xl font-bold font-serif">
-            <p>Lyra.Planet</p>
+            <p>梅心文游</p>
             <p className="w-2 h-2 bg-red-500"></p>
             <p>归档</p>
             </h1>
@@ -30,9 +30,8 @@ const index = () => {
                 <div className="flex items-center relative z-20 pr-2 bg-white space-x-1">
                 <p className=" text-red-500">{time}</p>
                 <p className="w-1.5 h-1.5 bg-neutral-300"></p>
-                <p className="text-neutral-400 font-normal text-xl"><span className="font-serif">{posts.length}</span>篇博客</p>
+                <p className="text-neutral-400 font-normal text-xl"><span className="font-serif">{posts.length}</span>篇文章</p>
                 </div>
-
             </section>
             <section className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 space-x-2  pb-10">
             {posts?.map((post) => (

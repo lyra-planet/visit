@@ -32,7 +32,7 @@ export default function Comment({linkTo}) {
           <button 
           onClick={()=>setActive(active=>!active)}
           className="bg-red-500 text-white py-2 md:py-1 px-4">
-          吐槽
+          留言
           </button>
         </section>
         </section>)  

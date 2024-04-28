@@ -5,10 +5,11 @@ export default async function handler(
     res: NextApiResponse
   ) {
     const {name,email,password,repeatPassword,profileImage} = req.body
+    console.log(name,email,password,repeatPassword,profileImage)
     if (!email || !password || !repeatPassword || !name) {
     return res.status(400).json({status:'Invalid params'})
     }
-
+   
     if (password !== repeatPassword) {
         return res.status(400).json({status: 'Passwords do not match'})
     }
