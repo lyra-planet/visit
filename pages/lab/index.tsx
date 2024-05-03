@@ -12,7 +12,7 @@ const index = () => {
             <h1 className="flex items-center space-x-2 text-3xl font-bold font-serif">
             <p>梅心文游</p>
             <p className="w-2 h-2 bg-red-500"></p>
-            <p>数字管藏</p>
+            <p>数字馆藏</p>
             </h1>
         </section>
     <section className="flex flex-col">

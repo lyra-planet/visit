@@ -31,7 +31,7 @@ const GiftFirst = () => {
                     </div>
                         <div className='w-full flex px-5'>
                             <Link
-                                href={`/posts`}
+                                href={`/posts/662d0d37ad9a717b50a99a1e`}
                                 className="
             inline-block
             relative  no-underline

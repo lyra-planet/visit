@@ -37,7 +37,7 @@ const GiftThird = () => {
                     </div>
                         <div className='w-full flex px-5'>
                             <Link
-                                href={`/posts`}
+                                href={`/posts/661e91c2549b76579735822e`}
                                 className="
             inline-block
             relative  no-underline
