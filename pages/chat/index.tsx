@@ -16,7 +16,6 @@ const index = () => {
         </section>
     <section className="w-full relative">
       <iframe className='w-full md:w-[70vw] h-[70vh]'  src="https://wx1.chatmee.cn/invite/F_ry0p6pEpv63gGUmB" frameBorder={0}></iframe>
-      <div className='absolute bottom-0 left-0 w-full h-[4vh] bg-white '></div>
     </section>
     </div>
   );
