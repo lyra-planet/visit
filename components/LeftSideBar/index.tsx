@@ -12,7 +12,7 @@ import {
 } from '@heroicons/react/24/outline'
 import AuthLogin from '../Auth/Login'
 import config from "../../config"
-import { CreditCardOutlined } from "@ant-design/icons"
+import { CreditCardOutlined, FireOutlined } from "@ant-design/icons"
 const LeftSideBar = () => {
   return (
     <div className="flex flex-col space-y-8 h-full w-full pb-6
@@ -53,6 +53,7 @@ const LeftSideBar = () => {
           <ul>
             <Item link="/comments"><ChatBubbleLeftEllipsisIcon className="h-5 mr-2" />梅心留言板<p className="hidden ml-2 lg:inline-block">Message</p></Item>
             <Item link="/friends"><HeartIcon className="h-5 mr-2" />精选游客<p className="hidden ml-2 lg:inline-block">Tourists</p></Item>
+            <Item link="/chat"><FireOutlined className="h-5 mr-2"/>文旅探索<p className="hidden ml-2 lg:inline-block">Explorer</p></Item>
             <Item link={config.links.friendLink}>< TruckIcon className="h-5 mr-2" />博物馆链接<p className="hidden ml-2 lg:inline-block">Traveling</p></Item>
           </ul>
         </section>

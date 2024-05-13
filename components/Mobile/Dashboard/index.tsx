@@ -8,7 +8,7 @@ import config from "../../../config";
 import { useStore } from "../../../store";
 import Link from "next/link";
 import FooterClickCopy from "./footerClickCopy"
-import { HeartOutlined, WechatOutlined } from "@ant-design/icons";
+import { FireOutlined, HeartOutlined, WechatOutlined } from "@ant-design/icons";
 
 const index = () => {
   const [active,setActive] = useState(false)
@@ -46,6 +46,7 @@ const index = () => {
       <NavItem  link="/lab"><CodeBracketIcon className="h-5 mr-2"/>数字馆藏 Collection</NavItem>
       <NavItem link="/comments"><ChatBubbleLeftEllipsisIcon className="h-5 mr-2"/>梅心留言板 Message</NavItem>
       <NavItem  link="/friends"><HeartIcon className="h-5 mr-2"/>精选游客 Tourists</NavItem>
+      <NavItem link="/chat"><FireOutlined className="h-5 mr-2 text-xl"/>文旅探索 Explorer</NavItem>
       <NavItem link={config.links.friendLink}>< TruckIcon className="h-5 mr-2"/>博物馆链接 Traveling</NavItem>
       </section>
 
