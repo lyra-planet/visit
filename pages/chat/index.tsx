@@ -6,7 +6,7 @@ import useAllFriend from "../../hooks/front/useAllFriend";
 const index = () => {
   const friends = useAllFriend()
   return (
-    <div className="py-8 px-10 space-y-10 w-full justify-center">
+    <div className="py-8 px-5 md:px-10 space-y-10 w-full justify-center">
         <section>
             <h1 className="flex items-center space-x-2 text-3xl font-bold font-serif">
             <p>梅心文游</p>
@@ -16,6 +16,7 @@ const index = () => {
         </section>
     <section className="w-full relative">
       <iframe className='w-full md:w-[70vw] h-[70vh]'  src="https://wx1.chatmee.cn/invite/F_ry0p6pEpv63gGUmB" frameBorder={0}></iframe>
+      <div className='bg-white w-full h-[3vh] absolute bottom-0 left-0 pointer-events-none'></div>
     </section>
     </div>
   );
